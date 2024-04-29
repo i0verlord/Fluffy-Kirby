@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="27" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="25">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="27" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="26">
  <tileset firstgid="1" name="kirby-like" tilewidth="16" tileheight="16" tilecount="90" columns="9">
   <image source="kirby-like.png" width="144" height="160"/>
  </tileset>
@@ -27,13 +27,14 @@
 0,0,0,0,0,63,0,0,0,0,0,0,0,63,63,0,0,0,0,0,0,63,63,63,63,63,63
 </data>
  </layer>
- <objectgroup id="4" name="colliders" visible="0">
+ <objectgroup id="4" name="colliders">
   <object id="7" x="0.666667" y="272" width="78.6667" height="46.6667"/>
   <object id="8" x="64" y="208" width="16" height="64"/>
   <object id="9" x="96" y="272" width="112" height="48"/>
   <object id="10" x="224" y="208" width="16" height="112"/>
   <object id="11" x="320" y="208" height="112"/>
   <object id="12" x="240" y="272" width="80" height="48"/>
+  <object id="25" name="exit" x="272" y="256" width="16" height="16"/>
  </objectgroup>
  <objectgroup id="5" name="spawnpoints" visible="0">
   <object id="16" name="player" x="0" y="256">
